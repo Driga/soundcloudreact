@@ -1,0 +1,6 @@
+.track-list {
+  text-align: left; }
+  .track-list .track-list-table {
+    width: 100%; }
+    .track-list .track-list-table td {
+      border: 1px solid #303030; }

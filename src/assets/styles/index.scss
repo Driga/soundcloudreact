@@ -1,0 +1,37 @@
+//@import "./index.scss"
+@import "./../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "./../../containers/tracklist/TrackList.css";
+@import "./../../containers/track/Track.css";
+@import "./../../containers/filters/Filters.css";
+@import "./../../containers/player/Player.css";
+
+header {
+  background-color: #111111;
+  padding: 16px;
+  width: 100%;
+  box-shadow: 2px 2px 6px #000000;
+  position: fixed;
+  z-index: 100;
+
+  nav a {
+    padding: 14px;
+    display: block;
+    float: left;
+  }
+}
+
+body {
+  color: #bbbbbb;
+  background-color: #1a1a1a;
+}
+
+main {
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}

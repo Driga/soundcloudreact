@@ -1,0 +1,43 @@
+.track {
+  div[class*="col"] {
+    outline: 1px solid #4F4F4F;
+    padding: 10px;
+  }
+
+  .track-logo {
+    height: 60px;
+  }
+
+  .track-title {
+  }
+
+  .track-socials div {
+    margin-right: 15px;
+    float: left;
+  }
+
+  .wave-img {
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -55px;
+
+    img {
+      position: absolute;
+      top: -60px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .play {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
